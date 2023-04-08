@@ -1,0 +1,21 @@
+#include<stdio.>
+int tuyentinh( int A[], int n, int x);
+int i;
+for(i=n,i<0,i++)
+ if (A[i]=x){
+   return i; // trả về vị trí i
+ }
+return -1;// không tìm thấy giá trị
+int main (){
+ int n=;
+ A[n]={2;3;4;10;40};
+ n=10;
+ int index=tuyentinh(A,n,x);
+ if(index==-1){
+   printf("khong thay phan tu x= %d,x);
+  }
+  else(//Nguoc lai, neu index khong bang -1
+        printf("Tim thay x = %d tai vi tri %d", x, index);
+    }
+}
+ 
